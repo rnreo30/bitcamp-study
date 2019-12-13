@@ -1,20 +1,33 @@
 package com.eomcs.lms;
 
+import util.java.Scanner;
+
 public class App2 {
 
   public static void main(String[] args) {
 
-    System.out.println("현재 진행중인 업무입니다:" + "진행중인 업무");
-    System.out.println("업무 유효기간 : 2019-12-10 ~ 2019-12-31");
-    System.out.println("업무 지시받은 날짜");
+    Scanner keyboard = new Scanner(System.in);
+    
+    
+    
+   System.out.println("번호: 1");
+   System.out.println("이름: 홍길동");
+   System.out.println("이메일: hong@test.com");
+   System.out.println("암호: 1111");
+   System.out.println("사진: hong.png");
+   System.out.println("전화: 1111-2222");
+   System.out.println("가입일: 2019-01-01");
+  }
+  
+}
+
+    
+    
     
 
-  }
 
 
 
 
 
 
-
-}
