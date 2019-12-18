@@ -2,7 +2,7 @@ package assignment;
 
 import java.util.Scanner;
 
-public class test102 {
+public class test012 {
   public static void main(String[] args ) {
     Scanner keyScan = new Scanner(System.in);
     

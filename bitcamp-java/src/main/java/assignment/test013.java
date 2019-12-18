@@ -2,24 +2,33 @@ package assignment;
 
 import java.util.Scanner;
 
-public class test101 {
+public class test013 {
   public static void main(String[] args ) {
     Scanner keyScan = new Scanner(System.in);
     
     System.out.print("밑변 길이? ");
     int width = keyScan.nextInt();
     
-    System.out.println("*");
-    System.out.println("**");
-    System.out.println("***");
-    System.out.println("****");
-    System.out.println("*****");
-    
+    int line = 0;
+    while (line++ < width) {
+      int x = 0;
+      while (x++ <line) {
+        System.out.print("*");
+        
+      }
+      System.out.println();
+    }
     keyScan.close();
-    
-   
   }
 }
+    
+        
+     
+      
+    
+    
+    
+   
 
 
 

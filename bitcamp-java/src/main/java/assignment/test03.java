@@ -2,7 +2,8 @@ package assignment;
 
 import java.util.Scanner;
 
-public class test103 {
+//현재 과제와 가장 유사한 값을 내는 소스코드를 가져온다.
+public class test03 {
   public static void main(String[] args ) {
     Scanner keyScan = new Scanner(System.in);
     
