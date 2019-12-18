@@ -1,5 +1,4 @@
 package com.eomcs.lms;
-
 import java.sql.Date;
 import java.util.Scanner;
 
@@ -37,6 +36,7 @@ public class App3 {
       
       System.out.print("내용? ");
       title2 = keyboard.nextLine();
+
       
       date2 = new Date(System.currentTimeMillis());
       count2 = 0;
